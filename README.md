@@ -1,4 +1,4 @@
-# [Rockawaybeach.io website](rockawaybeach.io)
+# [Rockawaybeach.io website](http://rockawaybeach.io)
 
 To contribute: fork the project and submit a pull request.
 
