@@ -1,12 +1,16 @@
 a {
   text-decoration: none;
-  color: $brown;
+  color: $yellow;
 
-  // :hover {
-  //   border-bottom: 1px solid blue;
-  // }
+  &:hover {
+    color: $orange;
+  }
 }
 
 .text--large {
   font-size: 20px;
+}
+
+h1, h2 {
+  font-weight: 400;
 }

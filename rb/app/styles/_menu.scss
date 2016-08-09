@@ -1,6 +1,17 @@
+ul.main-menu,
+ul.sub-menu {
+  padding: 0;
+  list-style: none;
+}
+
 .main-menu {
   > a {
     color: white;
+
+    &:hover {
+      color: $halfwhite;
+    }
+
   }
 
   li {
