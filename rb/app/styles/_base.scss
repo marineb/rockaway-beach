@@ -1,0 +1,22 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Avenir';
+  background: blue;
+  background: linear-gradient(30deg, #FF0078, #FFAB79);
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}

@@ -1,0 +1,8 @@
+li {
+  padding: 3px 0;
+  
+  &.inactive {
+  opacity: .5;
+  text-decoration: line-through;
+  }
+}

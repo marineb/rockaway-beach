@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="75px" height="75px" viewBox="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="37.5" cy="37.5" r="37.5"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="75" height="75" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Color-Copy" transform="translate(-150.000000, -25.000000)" stroke="#FFFFFF">
+            <g id="Logo" transform="translate(150.000000, 25.000000)">
+                <use id="Oval" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+                <path d="M14.0151515,52.5854949 C14.0151515,52.5854949 16.7230762,27.9711081 24.0303246,21.7911302 C26.5327573,19.6747414 36.2313321,14.2177913 42.9137508,14.8186426 C52.330927,15.6653902 61.3357891,25.0128399 61.3357891,25.0128399 C61.3357891,25.0128399 48.510117,22.8270712 44.0366553,23.8026065 C40.5420796,24.5646744 37.431677,30.2256495 37.431677,30.2256495 C37.431677,30.2256495 38.8274281,42.0662621 42.9137508,45.5023907 C46.707894,48.69283 61.3357891,52.5854949 61.3357891,52.5854949" id="Line" stroke-width="3" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
