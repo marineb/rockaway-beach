@@ -1,6 +1,6 @@
 # [Rockawaybeach.io website](http://rockawaybeach.io)
 
-To contribute: fork the project and submit a pull request.
+To contribute content or code, fork the project and submit a pull request. 😊
 
 This project was created to compensate for the lack of information available on Rockaway Beach. We thought that it might be a good idea to have a site listing all the cool stuff you can do in Rockaway Beach.
 
