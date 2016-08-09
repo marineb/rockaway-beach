@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('about');
   this.route('beaches');
   this.route('surfing');
+  this.route('clothing');
 });
 
 export default Router;
