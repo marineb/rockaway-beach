@@ -1,8 +1,8 @@
 # [Rockawaybeach.io website](rockawaybeach.io)
 
-To contribute, fork the project and submit a pull request.
+To contribute: fork the project and submit a pull request.
 
-This project was created to compensate for the lack of information available on Rockaway Beach. We thought that it might be a good idea to have a site listing all the cool stuff you can do in Rockaway Beach. 
+This project was created to compensate for the lack of information available on Rockaway Beach. We thought that it might be a good idea to have a site listing all the cool stuff you can do in Rockaway Beach.
 
 ## Prerequisites
 
@@ -43,5 +43,3 @@ Make use of the many generators for code, try `ember help generate` for more det
 ### Deploying
 
 * `ember deploy production`
-
-## Contribute
