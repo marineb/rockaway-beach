@@ -1,8 +1,30 @@
-li {
-  padding: 3px 0;
-  
-  &.inactive {
-  opacity: .5;
-  text-decoration: line-through;
+.main-menu {
+  > a {
+    color: white;
   }
+
+  li {
+    padding: 8px 0;
+
+    &.inactive {
+    color: $halfwhite;
+    text-decoration: line-through;
+    }
+  }
+
+}
+
+.sub-menu {
+  > a {
+    color: $halfwhite;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  li {
+    padding: 4px 0;
+  }
+
 }
