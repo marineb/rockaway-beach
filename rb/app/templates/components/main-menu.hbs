@@ -1,14 +1,17 @@
 {{yield}}
 
 <ul class="main-menu text--large">
-  {{#link-to 'beaches'}}<li>1 Beaches</li>{{/link-to}}
-  {{#link-to 'surfing'}}<li>2 Surfing</li>{{/link-to}}
-  <li class="inactive">3 Clothing</li>
-  <li class="inactive">4 Eating &amp; drinking</li>
-  <li class="inactive">5 Places to stay</li>
+       {{#link-to 'beaches'}}<li>1 Beaches</li>{{/link-to}}
+       {{#link-to 'surfing'}}<li>2 Surfing</li>{{/link-to}}
+      {{#link-to 'clothing'}}<li>3 Clothing</li>{{/link-to}}
+     {{#link-to 'eat-drink'}}<li>4 Eating &amp; drinking</li>{{/link-to}}
+{{#link-to 'places-to-stay'}}<li>5 Places to stay</li>{{/link-to}}
 </ul>
 
 <ul class="sub-menu">
   {{#link-to 'about'}}<li>About</li>{{/link-to}}
+   {{#link-to 'shop'}}<li>Shop</li>{{/link-to}}
   <a href="https://github.com/marineb/rockaway-beach" target="_blank"><li>Contribute on Github</li></a>
 </ul>
+
+<div class="copyrights">&copy; 2016 Marine Boudeau LLC</div>

@@ -12,6 +12,9 @@ Router.map(function() {
   this.route('beaches');
   this.route('surfing');
   this.route('clothing');
+  this.route('eat-drink');
+  this.route('shop');
+  this.route('places-to-stay');
 });
 
 export default Router;
