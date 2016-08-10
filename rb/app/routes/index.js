@@ -20,6 +20,9 @@ export default Ember.Route.extend(
       },
       five: function() {
         this.transitionTo('places-to-stay');
+      },
+      six: function() {
+        this.transitionTo('other-activities');
       }
     },
 
@@ -28,7 +31,8 @@ export default Ember.Route.extend(
       '2' : 'two',
       '3' : 'three',
       '4' : 'four',
-      '5' : 'five'
+      '5' : 'five',
+      '6' : 'six'
     }
   }
 );

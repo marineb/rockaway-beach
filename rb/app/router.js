@@ -15,6 +15,7 @@ Router.map(function() {
   this.route('eat-drink');
   this.route('shop');
   this.route('places-to-stay');
+  this.route('other-activities');
 });
 
 export default Router;
