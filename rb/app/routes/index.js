@@ -13,7 +13,7 @@ export default Ember.Route.extend(
         this.transitionTo('surfing');
       },
       three: function() {
-        this.transitionTo('clothing');
+        this.transitionTo('apparel');
       },
       four: function() {
         this.transitionTo('eat-drink');
