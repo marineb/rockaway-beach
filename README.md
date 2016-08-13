@@ -2,7 +2,7 @@
 
 To contribute content or code, fork the project and submit a pull request. 😊
 
-This project was created to compensate for the lack of information available on Rockaway Beach. We thought that it might be a good idea to have a site listing all the cool stuff you can do in Rockaway Beach.
+This project was created to make up for the lack of information available on Rockaway Beach. We thought it would be helpful to have a site listing all the cool stuff you can do there.
 
 ## Prerequisites
 
