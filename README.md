@@ -17,7 +17,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone git@github.com:marineb/rockaway-beach.git` this repository
-* `cd rockaway-beach && cd app` 
+* `cd rockaway-beach && cd rb` 
 * `npm install`
 * `bower install`
 
