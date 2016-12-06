@@ -16,8 +16,8 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* change into the new directory
+* `git clone git@github.com:marineb/rockaway-beach.git` this repository
+* `cd rockaway-beach && cd app` 
 * `npm install`
 * `bower install`
 
