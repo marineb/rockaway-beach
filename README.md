@@ -13,11 +13,12 @@ You will need the following things properly installed on your computer.
 * [Bower](http://bower.io/)
 * [Ember CLI](http://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
+* [Compass](http://compass-style.org/)
 
 ## Installation
 
 * `git clone git@github.com:marineb/rockaway-beach.git` this repository
-* `cd rockaway-beach && cd rb` 
+* `cd rockaway-beach/rb` 
 * `npm install`
 * `bower install`
 

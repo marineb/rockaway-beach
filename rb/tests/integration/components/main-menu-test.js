@@ -11,7 +11,8 @@ test('it renders', function(assert) {
 
   this.render(hbs`{{main-menu}}`);
 
-  assert.equal(this.$().text().trim(), '');
+  assert.equal(this.$().text().trim().replace(/\s+/g,' '),
+               '1 Beaches 2 Surfing 3 Apparel 4 Eating & drinking 5 Places to stay 6 Other activities About Shop Contribute on Github © 2016 Marine Boudeau LLC');
 
   // Template block usage:
   this.render(hbs`
@@ -20,5 +21,6 @@ test('it renders', function(assert) {
     {{/main-menu}}
   `);
 
-  assert.equal(this.$().text().trim(), 'template block text');
+  assert.equal(this.$().text().trim().replace(/\s+/g,' '),
+               'template block text 1 Beaches 2 Surfing 3 Apparel 4 Eating & drinking 5 Places to stay 6 Other activities About Shop Contribute on Github © 2016 Marine Boudeau LLC');
 });
