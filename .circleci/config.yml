@@ -1,1 +1,7 @@
 version: 2
+jobs:
+    build:
+        working_directory: ~/rockaway-beach
+        steps:
+            - checkout
+            - run: echo "hello world"
