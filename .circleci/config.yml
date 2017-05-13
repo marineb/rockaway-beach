@@ -2,6 +2,8 @@ version: 2
 jobs:
     build:
         working_directory: ~/rockaway-beach
+        docker:
+            - image: python:3.6.0
         steps:
             - checkout
             - run: echo "hello world"
