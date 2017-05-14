@@ -1,0 +1,11 @@
+machine:
+  node:
+    version: 6.10.2
+
+deployment:
+  production:
+    branch: master
+    commands:
+      # - checkout
+      # - run: echo "hello world"
+      - scp -r * marineboudeau@marineboudeau.com:/home/rockaway-beach/
