@@ -9,4 +9,4 @@ deployment:
   production:
     branch: master
     commands:
-      - scp -r * marineboudeau@marineboudeau.com:/home/rockaway-beach/
+      - scp -r * marineboudeau@marineboudeau.com:/home/rockawaybeach.io/
