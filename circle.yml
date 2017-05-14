@@ -2,8 +2,6 @@ test:
   override:
     - "true"
 
-
-
 deployment:
   production:
     branch: master
