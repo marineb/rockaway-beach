@@ -7,3 +7,7 @@ deployment:
     branch: master
     commands:
       - scp -r * marineboudeau@marineboudeau.com:/home/marineboudeau/rockawaybeach.io/
+
+  staging:
+    branch: beta
+    commands:
