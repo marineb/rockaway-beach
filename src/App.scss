@@ -1,0 +1,21 @@
+//@import "./shared.scss";
+
+@import "styles/_vars";
+@import "styles/_base";
+@import "styles/_layout";
+@import "styles/_menu";
+
+@import "styles/_text";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  height: 150px;
+  padding: 20px;
+}

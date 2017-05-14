@@ -1,18 +1,92 @@
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  margin: 0 auto;
+  background: blue;
+  background: linear-gradient(30deg, #FF0078, #FFAB79);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Avenir', 'Helverica Neue';
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 100; }
+
+li {
+  padding: 5px 0; }
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 30px 50px 30px; }
+
+.logo {
+  width: 75px;
+  margin: 0 auto;
+  display: block;
+  padding: 22px 0 15px 0; }
+
+ul.main-menu,
+ul.sub-menu {
+  padding: 0;
+  list-style: none; }
+
+.main-menu > a {
+  color: white; }
+  .main-menu > a:hover {
+    color: rgba(255, 255, 255, 0.5); }
+
+.main-menu li {
+  padding: 8px 0; }
+  .main-menu li.inactive {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: line-through; }
+
+.sub-menu > a {
+  color: rgba(255, 255, 255, 0.5); }
+  .sub-menu > a:hover {
+    color: white; }
+
+.sub-menu li {
+  padding: 4px 0; }
+
+.copyrights {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0;
+  margin-top: 30px; }
+
+a {
+  text-decoration: none;
+  color: #FDFF00; }
+  a:hover {
+    color: #FFAD00; }
+
+.text--large {
+  font-size: 20px; }
+
+h1, h2 {
+  font-weight: 400; }
+
+h2 {
+  margin: 36px 0 5px 0; }
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 26px 0 5px 0; }
+
+p {
+  margin-top: 0; }
+
 .App {
-  text-align: center;
-}
+  text-align: center; }
 
 .App-logo {
-  height: 80px;
-}
+  height: 80px; }
 
 .App-header {
-  background-color: #222;
   height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
+  padding: 20px; }
