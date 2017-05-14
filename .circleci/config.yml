@@ -1,10 +1,13 @@
-version: 2
-jobs:
-    build:
-        working_directory: ~/rockaway-beach
-        docker:
-            - image: python:3.6.0
-        steps:
+# jobs:
+#     build:
+#         working_directory: ~/rockaway-beach
+#         docker:
+#             - image: python:3.6.0
+#         steps:
+deployment:
+    production:
+        branch: master
+        commands:
             - checkout
             - run: echo "hello world"
             - scp -r * marineboudeau@marineboudeau.com:/home/rockaway-beach/
