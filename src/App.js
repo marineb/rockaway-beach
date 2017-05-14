@@ -21,7 +21,7 @@ const Home = () => (
     <ul className="main-menu">
       <li><Link to="/beaches">1 Beaches</Link></li>
       <li><Link to="/surfing">2 Surfing</Link></li>
-      <li><Link to="/apparel">3 Apparel</Link></li>
+      <li><Link to="/apparel-gear">3 Apparel &amp; gear</Link></li>
       <li><Link to="/eat-drink">4 Eating &amp; drinking</Link></li>
       <li><Link to="/places-to-stay">5 Places to stay</Link></li>
       <li><Link to="/other-activities">6 Other activities</Link></li>
@@ -114,13 +114,13 @@ const Surfing = () => (
   </div>
 )
 
-const Apparel = () => (
+const ApparelGear = () => (
   <div>
-    <h1>Apparel</h1>
+    <h1>Apparel &amp; gear</h1>
       <ul>
-        <li><a href="http://www.localssurfschool.com/apparel" target="_blank">Local Surf School</a> makes cool hats.</li>
+        <li><a href="http://www.localssurfschool.com/apparel" target="_blank">Local Surf School</a></li>
         <li><a href="http://www.rockawaybeachclothing.com/shop/" target="_blank">Rockaway Beach Clothing</a></li>
-        <li>Not clothing, but worth mentioning: <a href="http://www.paulsurf.com/" target="_blank">Paul Surf</a> shapes boards locally (and they also offer a one-day workshop where you can learn to shape your own).</li>
+        <li><a href="http://www.paulsurf.com/" target="_blank">Paul Surf</a> shapes boards locally and offers a one-day workshop where you can learn to shape your own</li>
       </ul>
 
       <div className="back-home">
@@ -170,6 +170,8 @@ const EatDrink = () => (
     <h3>Beach 97th St.</h3>
     There’s also a cluster of bars and food stands on the boardwalk by 97th St.
 
+    <h3><a target="_blank" href="http://riisparkbeachbazaar.com/">Edgemere Farm</a> (385 Beach 45th Street)</h3>
+    Edgemere Farm is a half-acre urban farm located in the beachside community of Far Rockaway, where a wide variety of fresh and organically grown vegetables, flowers and herbs are now cultivated. Bees, chickens and many varieties of pollinators use the farm as home base as well. The farm is a self-sustaining enterprise and acts as a zero-profit business. The farm stand will be open on Saturdays and Sundays from 9AM-2PM from May 13 until October 29th. Breakfast will be available on both days, hours TBA.
 
     <div className="back-home">
       <Link to="/">👈 home</Link>
@@ -182,11 +184,7 @@ const PlacesToStay = () => (
     <h1>Places to stay</h1>
     <ul>
       <li><a href="http://www.truckafloat.com/" target="_blank">Truck-A-Float</a> (Marina)</li>
-      <li><a href="https://www.airbnb.com/rooms/6520350?guests=1&s=Ktv6OVB0" target="_blank">The Kook House</a> (Beach 67th St., Airbnb)</li>
-      <li><a href="https://www.airbnb.com/rooms/13752309?guests=1&s=Ktv6OVB0" target="_blank">Beach Bungalow 1</a> (Beach 87th St., Airbnb)</li>
-      <li><a href="https://www.airbnb.com/rooms/4792529?guests=1&s=Ktv6OVB0" target="_blank">Beach Bungalow 2</a> (Beach 90th St., Airbnb)</li>
-      <li><a href="https://www.airbnb.com/rooms/13865028?guests=1&s=Ktv6OVB0" target="_blank">Four Bedrooms</a> (Beach 94th St., Airbnb)</li>
-      <li><a href="http://www.playlandmotel.com/" target="_blank">Playland Motel</a> (Beach 97th St.)</li>
+      <li><a href="https://www.airbnb.com/s/rockaway-beach/homes?allow_override%5B%5D=&ne_lat=40.58879754802457&ne_lng=-73.81177550556629&search_by_map=true&sw_lat=40.5185058874221&sw_lng=-73.85915404560535&zoom=14&s_tag=iD026_h9" target="_blank">Browse the many houses on Airbnb</a></li>
     </ul>
 
     <div className="back-home">
@@ -257,7 +255,7 @@ const App = () => (
       <Route exact path="/" component={Home}/>
       <Route path="/beaches" component={Beaches}/>
       <Route path="/surfing" component={Surfing}/>
-      <Route path="/apparel" component={Apparel}/>
+      <Route path="/apparel-gear" component={ApparelGear}/>
       <Route path="/eat-drink" component={EatDrink}/>
       <Route path="/places-to-stay" component={PlacesToStay}/>
       <Route path="/other-activities" component={OtherActivities}/>
