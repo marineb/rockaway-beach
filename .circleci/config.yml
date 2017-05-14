@@ -7,4 +7,4 @@ jobs:
         steps:
             - checkout
             - run: echo "hello world"
-            - scp -r * USERNAME@DOMAIN:/home/WEBSITE/
+            - scp -r * marineboudeau@marineboudeau.com:/home/rockaway-beach/
