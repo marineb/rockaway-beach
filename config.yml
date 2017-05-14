@@ -1,6 +1,6 @@
 test:
   override:
-    - echo "test"
+    - "true"
 
 deployment:
   production:
