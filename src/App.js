@@ -10,7 +10,7 @@ import {
 
 const Home = () => (
   <div>
-    <h1>Welcome to RockawayBeach.io</h1>
+    <h1>Welcome to Rockaway Beach</h1>
 
     <p>
       This project makes up for the lack of information available on Rockaway Beach. We thought it would be helpful to have a simple list of all the great activities you can do there.
