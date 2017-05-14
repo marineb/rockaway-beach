@@ -5,8 +5,8 @@ html {
 body {
   height: 100%;
   margin: 0 auto;
-  background: #ff7379;
-  background: linear-gradient(30deg, #FF0078, #FFAB79);
+  background: $back-up;
+  background: linear-gradient(30deg, $pink, $orange);
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: 'Avenir', 'Helverica Neue';

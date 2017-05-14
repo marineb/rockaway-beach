@@ -28,14 +28,17 @@ li {
   display: block;
   padding: 22px 0 15px 0; }
 
+.back-home {
+  margin: 20px 0; }
+
 ul.main-menu,
 ul.sub-menu {
   padding: 0;
   list-style: none; }
 
-.main-menu > a {
+.main-menu li > a {
   color: white; }
-  .main-menu > a:hover {
+  .main-menu li > a:hover {
     color: rgba(255, 255, 255, 0.5); }
 
 .main-menu li {
@@ -44,25 +47,32 @@ ul.sub-menu {
     color: rgba(255, 255, 255, 0.5);
     text-decoration: line-through; }
 
-.sub-menu > a {
-  color: rgba(255, 255, 255, 0.5); }
-  .sub-menu > a:hover {
-    color: white; }
+.sub-menu li > a {
+  color: white; }
+  .sub-menu li > a:hover {
+    color: rgba(255, 255, 255, 0.5); }
 
 .sub-menu li {
   padding: 4px 0; }
 
 .copyrights {
-  font-size: 10px;
+  font-size: 12px;
   color: rgba(255, 255, 255, 0.5);
   letter-spacing: 0;
   margin-top: 30px; }
+  .copyrights a {
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom: dotted 1px rgba(255, 255, 255, 0.5); }
+    .copyrights a:hover {
+      color: white;
+      border-color: white; }
 
 a {
   text-decoration: none;
-  color: #FDFF00; }
+  color: #FDFF00;
+  transition: all 0.2s; }
   a:hover {
-    color: #FFAD00; }
+    color: #FFAB79; }
 
 .text--large {
   font-size: 20px; }
@@ -80,13 +90,3 @@ h3 {
 
 p {
   margin-top: 0; }
-
-.App {
-  text-align: center; }
-
-.App-logo {
-  height: 80px; }
-
-.App-header {
-  height: 150px;
-  padding: 20px; }

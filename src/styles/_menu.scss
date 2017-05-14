@@ -5,7 +5,7 @@ ul.sub-menu {
 }
 
 .main-menu {
-  > a {
+  li > a {
     color: white;
 
     &:hover {
@@ -27,11 +27,11 @@ ul.sub-menu {
 
 .sub-menu {
 
-  > a {
-    color: $halfwhite;
+  li > a {
+    color: white;
 
     &:hover {
-      color: white;
+      color: $halfwhite;
     }
   }
 
@@ -42,8 +42,18 @@ ul.sub-menu {
 }
 
 .copyrights {
-  font-size: 10px;
+  font-size: 12px;
   color: rgba(255, 255, 255, .5);
   letter-spacing: 0;
   margin-top: 30px;
+
+  a {
+    color: $halfwhite;
+    border-bottom: dotted 1px $halfwhite;
+
+    &:hover {
+      color: white;
+      border-color: white;
+    }
+  }
 }
