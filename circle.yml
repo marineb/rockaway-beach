@@ -6,4 +6,4 @@ deployment:
   production:
     branch: master
     commands:
-      - scp -r * marineboudeau@marineboudeau.com:/home/marineboudeau/rockawaybeach.io/
+      - scp -r * $USERNAME@$DOMAIN:$PATH
