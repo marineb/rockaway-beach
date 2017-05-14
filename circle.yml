@@ -1,10 +1,7 @@
-# general:
-#   build_dir: ~/rockaway-beach
-#
-# test:
-#   override:
-#     - "true"
-#
+test:
+  override:
+    - "true"
+
 deployment:
   production:
     branch: master
