@@ -10,10 +10,10 @@ import {
 
 const Home = () => (
   <div>
-    <h1>Welcome to Rockaway Beach</h1>
+    <h1>Rockaway Beach Guide</h1>
 
     <p>
-      This project makes up for the lack of information available on Rockaway Beach. We thought it would be helpful to have a simple list of all the great activities you can do there.
+      This guide makes up for the lack of information available on Rockaway Beach. We thought it would be helpful to have a simple list of all the great activities you can do there.
     </p>
 
     <p>We're currently designing a line of socks to help you bring the beach to the office. <a href="http://eepurl.com/ca5HSL" target="_blank">Give us your email</a> and we'll let you know when the socks are here!</p>
