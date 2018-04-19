@@ -2,7 +2,7 @@
 
 This project makes up for the lack of information available on Rockaway Beach. It's available at [rockawaybeach.io](https://rockawaybeach.io).
 
-We thought it would be helpful to have a site listing all the great activities you can do there.
+We thought it would be helpful to have a site listing all the great activities you can do in Rockaway Beach.
 
 
 ## Running it locally
