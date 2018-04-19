@@ -17,3 +17,4 @@ We thought it would be helpful to have a site listing all the great activities y
 * `yarn start`
 * Visit the app at [http://localhost:3000](http://localhost:3000)
 * The page will auto refresh as you make changes
+
